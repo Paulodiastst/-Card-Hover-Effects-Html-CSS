@@ -48,12 +48,13 @@ body {
   top: -60px;
   left: 20px;
   z-index: 1;
-  box-shadow: 0 5px 20px rgba(0,0,0,0,2);  
+  box-shadow: 0 5px 20px rgba(0,0,0,0,2); 
 }
 
 .imgBx img {
   max-width: 100%;
   border-radius: 4px;
+  
 }
 
 .container .card .content {
@@ -63,7 +64,7 @@ body {
   color: #111;
   visibility: hidden;
   opacity: 0;
-  transition: 0.3s ease-in-out;  
+  transition: 0.3s ease-in-out;    
 }
 
 .container .card:hover .content {
@@ -72,3 +73,22 @@ body {
   margin-top: -40px;
   transition-delay: 0.3s;
 }
+
+@media (max-width: 600px) {
+
+  .card .imgBx !important {
+    width: 100%; 
+
+}
+
+@media (max-width: 360px) {
+
+  .imgBx {
+    width: 80%; 
+}
+
+
+
+
+
+
